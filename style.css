@@ -1,0 +1,107 @@
+div{
+    text-align: center;
+}
+.sidebar{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    padding-top: 20px;
+    top: 0%;
+    bottom: 0%;
+    
+}
+.sidebar ul{
+    list-style: none;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    padding: 15px 20px;
+    /*margin-left:270px; */
+    
+
+
+}
+.sidebar li{
+    padding: 15px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: blue;
+}
+.sidebar a{
+    text-decoration: none;
+    color: saddlebrown;
+}
+a:hover{
+    background-color: cadetblue;
+    color: darkslategray;
+}
+.rounded image{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow-y: none;
+    padding: 10px;
+    align-self: center;
+}
+.myname{
+    font-size: 30px;
+    font-weight: bolder;
+    color: blue;
+    margin: 0;
+
+}
+.intoduction-text{
+    font-size: 25px;
+}
+.introduction{
+    margin-left: 0px;
+}
+.contact-me{
+    text-align: center;
+    /*border: 1px solid red; */
+    color:black;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-me a{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.contact-me a:hover{
+    background-color: white;
+    color: black;
+    transition-delay: 15ms ease-in-out;
+}
+.main-content{
+    margin-left: 250px;
+}
+.work{
+    margin-left:200px ;
+}
+.my-work h1{
+    margin-left: 200px;
+}
+.read-more a{
+    color: black;
+    background-color: midnightblue;
+    font-weight: bolder;
+    padding: 8px;
+    font-size: 15px;
+}
+.read.more{
+    background-color: white;
+    color: black;
+    transition: 200ms ease-in-transition;
+}
+.read.more.hover{
+    background-color: white;
+    background-color: black;
+    transition: 200ms ease-in-out;
+}
